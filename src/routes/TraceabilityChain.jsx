@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Rug from "../assets/traceabilityImgs/rug.png";
 import Smog from "../assets/traceabilityImgs/smog.svg";
 import SmogText from "../assets/traceabilityImgs/smogText.svg";
-import Teapot from "../assets/traceabilityImgs/teapot.png";
+import Teapot from "../assets/traceabilityImgs/teapotQr.svg";
 import "../css/routes/TraceabilityChain.css";
 
 export default function TraceabilityChain({ loadingComplete }) {
