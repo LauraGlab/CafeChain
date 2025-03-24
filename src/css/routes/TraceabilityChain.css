@@ -38,6 +38,7 @@
   position: absolute;
   right: 0;
   top: 16rem;
+  z-index: -1;
 }
 
 @keyframes smog-animation {
