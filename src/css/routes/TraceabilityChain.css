@@ -18,6 +18,7 @@
   animation: smog-animation 3s infinite ease-in-out;
   height: 13rem;
   margin-left: 1rem;
+  z-index: 9;
 }
 
 .smogText {
@@ -31,6 +32,7 @@
   text-transform: initial;
   top: 9.5rem;
   width: 10rem;
+  z-index: 9;
 }
 
 .teapot {
