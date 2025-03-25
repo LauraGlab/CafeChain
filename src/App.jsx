@@ -2,13 +2,14 @@ import {  HashRouter as Router, Routes, Route, useLocation } from "react-router-
 import { useState, useEffect } from "react";
 import Web3 from "web3";
 import About from "./routes/About.jsx";
+import BatchDetails from "./routes/BatchDetails.jsx";
 import Contact from "./routes/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import Header from "./components/Header.jsx";
 import Home from "./routes/homepage/Home.jsx";
 import Loading from "./routes/Loading.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 import TraceabilityChain from "./routes/TraceabilityChain.jsx";
-import BatchDetails from "./routes/BatchDetails.jsx";
 import "./css/App.css";
 import contractData from "./../artifacts/contracts/CoffeeTrack.sol/CoffeeTrack.json";
 import contractAddress from "./contractAddress.js";
@@ -75,6 +76,7 @@ export default function App() {
 
   return (
     <div className="app">
+      <ScrollToTop />
       {loading && <Loading />}
       <Header />
       <Routes>
