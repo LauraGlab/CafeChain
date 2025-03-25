@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
+import jsPDF from "jspdf";
 import contractAddress from "./../contractAddress.js";
 import Questions from "../components/Questions.jsx";
 import errorImg from "../assets/errorImg.svg";
@@ -37,11 +37,7 @@ export default function BatchDetails({ contract, loadingComplete }){
     batchImg6,
     batchImg7,
   ];
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
+  
   useEffect(() => {
     const fetchBatchDetails = async () => {
       try {
