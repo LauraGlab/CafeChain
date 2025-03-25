@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { motion } from "framer-motion";
 import ContactImg from "./../assets/contactImg.svg";
 import "./../css/routes/Contact.css";
@@ -8,10 +7,6 @@ export default function Contact({ loadingComplete }) {
     hidden: { opacity: 0 },
     visible: { opacity: 1, transition: { duration: 1, ease: "easeOut" } },
   };
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   return (
     <motion.div
