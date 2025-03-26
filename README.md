@@ -1,6 +1,6 @@
 # ☕ CafeChain – Tracing Your Coffee from Farm to Cup
 
-![CafeChain Readme](public/images/cafechainReadme.png)
+![CafeChain Readme](public/cafechainReadme.svg)
 
 ## Table of Contents  
 - [About the Project](#about-the-project)  
@@ -33,7 +33,10 @@ Most blockchain-based tracking systems cater exclusively to producers and distri
 ## How It Works  
 1. **Producers & Farmers**: Register coffee batches and link them to a unique **QR code**.  
 2. **Suppliers & Retailers**: Provide product details for tracking and display QR codes.  
-3. **Consumers**: Scan the QR code to instantly access the coffee’s history, including origin, processing, and distribution details.  
+3. **Consumers**: Scan the QR code to instantly access the coffee’s history, including origin, processing, and distribution details.
+
+## Example QR Code for a Coffee Batch:
+![QR Code Example](public/cafechainQrReadme.svg)
 
 ## Why CafeChain?  
 Unlike traditional tracking systems, **CafeChain** enhances transparency while fostering a deeper connection between consumers and coffee producers. It empowers consumers to make **informed choices**, appreciate the effort behind each cup, and support sustainable, ethical coffee production.  
