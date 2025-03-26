@@ -1,4 +1,4 @@
-**# ☕ CafeChain – Tracing Your Coffee from Farm to Cup
+# ☕ CafeChain – Tracing Your Coffee from Farm to Cup
 
 ## Table of Contents  
 - [About the Project](#about-the-project)  
