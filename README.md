@@ -1,5 +1,7 @@
 # ☕ CafeChain – Tracing Your Coffee from Farm to Cup
 
+![CafeChain Readme](public/images/cafechainReadme.png)
+
 ## Table of Contents  
 - [About the Project](#about-the-project)  
 - [Features](#features)  
