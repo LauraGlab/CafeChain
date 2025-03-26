@@ -39,7 +39,7 @@ Unlike traditional tracking systems, **CafeChain** enhances transparency while f
 By leveraging **blockchain technology**, the system guarantees authenticity, prevents data tampering, and promotes trust in the coffee supply chain.  
 
 ## Built With  
-- **React**
+- **React** – Frontend for an interactive user experience
 - **Solidity** – Smart contract development for tracking coffee batches  
 - **Sepolia Testnet** – Ethereum test network for blockchain transactions  
 - **Web3.js** – Interaction with the Ethereum blockchain  
