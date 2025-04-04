@@ -1,10 +1,10 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { Link } from "react-router-dom"; // Import Link from React Router
+import { Link } from "react-router-dom";
 import Logo from "./../assets/logoHorizontal.svg";
 import "../css/components/Menu.css";
 
 export default function Menu({ isOpen, handleClose }) {
-  // Define an array of menu items with name and path
+
   const menuItems = [
     { name: "Śledź kawę", path: "/sledz-kawe" },
     { name: "O projekcie", path: "/o-projekcie" },
